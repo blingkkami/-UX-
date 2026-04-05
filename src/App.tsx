@@ -69,7 +69,7 @@ export default function App() {
             {/* Heatmap 1 */}
             <div className="bg-surface-container-low rounded-[2.5rem] p-8 md:p-12 flex flex-col items-center">
               <div className="w-[280px] h-[580px] bg-black rounded-[3rem] border-[12px] border-on-surface relative overflow-hidden shadow-2xl mb-10 shrink-0">
-                <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=600&auto=format&fit=crop" alt="Perfume Bottle" className="w-full h-full object-cover opacity-90" referrerPolicy="no-referrer" />
+                <img src="https://image.pollinations.ai/prompt/A%20luxurious%20glass%20perfume%20bottle%20with%20a%20raccoon%20motif,%20dark%20teal%20background,%20premium%20cosmetic%20photography?width=600&height=1200&nologo=true" alt="Racoon Eau de Parfum" className="w-full h-full object-cover opacity-90" referrerPolicy="no-referrer" />
                 
                 <div className="absolute top-[45%] left-[15%] w-48 h-48 bg-orange-500 rounded-full heatmap-glow opacity-80"></div>
                 <div className="absolute top-[50%] left-[30%] w-24 h-24 bg-red-600 rounded-full heatmap-glow opacity-90"></div>
