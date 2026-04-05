@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00342b;
+  --color-primary-container: #004d40;
+  --color-on-primary-container: #7ebdac;
+  --color-secondary: #4c635c;
+  --color-secondary-container: #cce5dc;
+  --color-on-secondary-container: #506760;
+  --color-surface: #fcf9f8;
+  --color-on-surface: #1b1b1b;
+  --color-on-surface-variant: #3f4945;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f6f3f2;
+  --color-surface-container: #f0eded;
+  --color-surface-container-high: #eae7e7;
+  --color-surface-container-highest: #e5e2e1;
+  --color-outline-variant: #bfc9c4;
+
+  --font-headline: "Manrope", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+
+  --shadow-ambient: 0 8px 24px -2px rgba(27, 27, 27, 0.06);
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.heatmap-glow {
+    mix-blend-mode: multiply;
+    filter: blur(24px);
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #fcf9f8;
+}
+::-webkit-scrollbar-thumb {
+    background: #e5e2e1;
+    border-radius: 4px;
+}
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+    .pb-safe {
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+}
